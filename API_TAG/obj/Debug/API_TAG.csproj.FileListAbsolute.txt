@@ -1,0 +1,9 @@
+C:\Users\thomas.vandecasteele\RiderProjects\API_TAG\API_TAG\bin\Debug\API_TAG.exe
+C:\Users\thomas.vandecasteele\RiderProjects\API_TAG\API_TAG\bin\Debug\API_TAG.pdb
+C:\Users\thomas.vandecasteele\RiderProjects\API_TAG\API_TAG\obj\Debug\API_TAG.csproj.AssemblyReference.cache
+C:\Users\thomas.vandecasteele\RiderProjects\API_TAG\API_TAG\obj\Debug\API_TAG.csproj.CoreCompileInputs.cache
+C:\Users\thomas.vandecasteele\RiderProjects\API_TAG\API_TAG\obj\Debug\API_TAG.exe
+C:\Users\thomas.vandecasteele\RiderProjects\API_TAG\API_TAG\obj\Debug\API_TAG.pdb
+C:\Users\thomas.vandecasteele\RiderProjects\API_TAG\API_TAG\bin\Debug\Newtonsoft.Json.dll
+C:\Users\thomas.vandecasteele\RiderProjects\API_TAG\API_TAG\bin\Debug\Newtonsoft.Json.xml
+C:\Users\thomas.vandecasteele\RiderProjects\API_TAG\API_TAG\obj\Debug\API_TAG.csproj.CopyComplete
