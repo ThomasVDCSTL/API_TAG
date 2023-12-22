@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace API_TAG
 {
-    public class Request
+    public class StopByCoord
     {
         private WebRequest _request;
 
@@ -39,16 +39,17 @@ namespace API_TAG
             }
         }
 
-        public List<TransportLine> GetStopList
+        public List<BusStop> GetStopList
         {
             get
             {
-                return new List<TransportLine>(JsonConvert.DeserializeObject<List<TransportLine>>(getFullResp));
+                return new List<BusStop>(JsonConvert.DeserializeObject<List<BusStop>>(getFullResp));
             }
         }
 
-        public Request(string url)
+        public StopByCoord(string x, string y, string rayon_m)
         {
+            string url = "http://data.mobilites-m.fr/api/linesNear/json?y="+y+"&x="+x+"&dist="+rayon_m+"&details=true";
             _request = WebRequest.Create(url);
         }
 

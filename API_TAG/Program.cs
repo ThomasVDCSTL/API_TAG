@@ -13,12 +13,12 @@ namespace API_TAG
                                                  SecurityProtocolType.Tls;
             
             
-            Request req =
-                new Request(
-                    "http://data.mobilites-m.fr/api/linesNear/json?y=45.176263&x=5.753379&dist=1000&details=true");
-            // Console.WriteLine(req.getFullResp);
-            List<TransportLine> lignes = req.GetStopList;
-            Console.WriteLine(lignes[0].Name);
+            StopByCoord req = new StopByCoord("5.753379","45.176263","500");
+            List<BusStop> arrets = req.GetStopList;
+            foreach (BusStop arret in arrets)
+            {
+            Console.WriteLine(arret.Id);
+            }
             
             req.CloseConnections();
         }

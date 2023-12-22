@@ -2,7 +2,7 @@
 
 namespace API_TAG
 {
-    public class TransportLine
+    public class BusStop
     {
         [JsonProperty("id")]
         public string Id { get; set; }
